@@ -1,0 +1,12 @@
+/* we are using BEM convention here
+in BEM , B is for Block, E is for Element and M is for Modifier 
+*/
+
+/* Block */
+.navbar {
+  @apply flex justify-between py-4;
+}
+/* Element */
+.navbar__brand {
+  @apply font-krona;
+}
