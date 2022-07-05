@@ -1,22 +1,15 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import BrandLink from "../BrandLink";
+import NavLinks from "../NavLinks";
 import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <nav className="navbar font-krona container mx-auto">
-      <a className="navbar__brand text-2xl" href="/">
-        Welly
-      </a>
+      <BrandLink />
       <div className="flex items-end lowercase">
-        <a href="/" className="mr-8 text-sm ">
-          Home
-        </a>
-        <a href="/" className="mr-8 text-sm">
-          Buy
-        </a>
-        <a href="/" className="mr-8 text-sm">
-          About
-        </a>
+        <NavLinks />
         {/* Icons */}
         {/* TODO: add colors to icons */}
         <div className="flex">

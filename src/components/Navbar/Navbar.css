@@ -7,6 +7,4 @@ in BEM , B is for Block, E is for Element and M is for Modifier
   @apply flex justify-between py-4;
 }
 /* Element */
-.navbar__brand {
-  @apply font-krona;
-}
+

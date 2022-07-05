@@ -1,0 +1,6 @@
+.active-class {
+  @apply text-sm mr-8 text-yellow;
+}
+.non-active-class {
+  @apply text-sm mr-8;
+}
